@@ -1,0 +1,20 @@
+{
+  "name": "gofasta-server",
+  "version": "1.0.0",
+  "description": "Real-time server for GoFasta bus tracking",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@googlemaps/google-maps-services-js": "^3.3.36",
+    "axios": "^1.6.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "expo-server-sdk": "^3.7.0",
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  }
+}
