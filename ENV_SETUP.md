@@ -21,7 +21,6 @@ DUMMY_BUS_COUNT=3
 DUMMY_UPDATE_INTERVAL=10
 
 # Google Maps API Key (required for ETA and route calculation)
-GOOGLE_MAPS_API_KEY=
 ```
 
 2. **Start the server**:
