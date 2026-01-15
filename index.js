@@ -48,7 +48,7 @@ const USE_DUMMY_GPS = process.env.USE_DUMMY_GPS === 'true' || process.env.USE_DU
 // --- ETA CONFIGURATION ---
 const POLL_INTERVAL_MS = 10_000;        // Fetch GPS every 10s
 const ETA_REFRESH_MS = 30_000;          // Refresh Google Route every 30s
-const ARRIVAL_DISTANCE_M = 50;          // Distance to consider "Arrived"
+const ARRIVAL_DISTANCE_M = 150;          // Distance to consider "Arrived"
 const STALE_DEVICE_MS = 10 * 60 * 1000; // 10 minutes before considering offline
 
 // Fixed Destination (Must match the one in your dummyGPS.js for arrival to work)
