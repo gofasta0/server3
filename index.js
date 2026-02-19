@@ -52,7 +52,7 @@ const ARRIVAL_DISTANCE_M = 150;          // Distance to consider "Arrived"
 const STALE_DEVICE_MS = 10 * 60 * 1000; // 10 minutes before considering offline
 
 // Fixed Destination (Must match the one in your dummyGPS.js for arrival to work)
-const DESTINATION = { lat: -1.94995, lng: 30.05885 };
+const DESTINATION = { lat: -1.9524035, lng: 30.0914815 };
 
 // ==================================================================
 // 3. STATE & CACHE
